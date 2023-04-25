@@ -8,7 +8,8 @@ body {
 a {
     text-decoration: none;
     font-size: 30px;
-    color: black;
+    color: #747070;
+    font-family: 'Aleo', serif;
 }
 .navbar {
     align-items: flex-end;
