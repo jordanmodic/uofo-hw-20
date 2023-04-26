@@ -13,8 +13,15 @@ h1 {
 }
 h2 {
     font-family: 'Aleo', serif;
-    font-size: 30;
+    font-size: 30px;
     margin-bottom: 0;
+    padding: 0;
+}
+h3 {
+    font-family: 'Aleo', serif;
+    font-size: 24px;
+    margin-bottom: 0;
+    padding: 0; 
 }
 .subtitle1 {
     font-family: 'Noto Sans', serif;
@@ -276,7 +283,29 @@ i {
     padding-right: .7em;
     padding-top: .5em;
     padding-bottom: .5em;
+    display: inline-block;
 }
 .user-research-title {
     margin-top: 8em;
+}
+.interview-design-section {
+    margin-top: 6em;
+    margin-bottom: 20%;
+}
+.interview-design-title {
+    display: inline-block;
+
+}
+.interview-design-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.interview-design-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5em;
 }
