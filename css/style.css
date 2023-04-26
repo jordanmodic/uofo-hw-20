@@ -160,6 +160,7 @@ img {
     z-index: -1;
 }
 .problem {
+    display: inline-block;
     width: 90%;
     margin-right: 20%;
 }
@@ -197,4 +198,49 @@ img {
     border-width: 3px;
     margin-top: 3em;
     margin-left: 3em;
+}
+.design-process {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.design-sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a, .page-nav {
+    color: black;
+    font-size: 28px;
+    text-align: center; 
+}
+.title {
+    border: solid #FFD5C4;
+    border-width: 3px;
+    text-align: center;
+    background: linear-gradient(270deg, #E6E8FF 2.08%, #E6E8FF 38.02%, #E6F6FF 68.23%, #E6F6FF 95.31%);
+    display: inline-block;
+    position: relative;
+    padding-left: .7em;
+    padding-right: .7em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    z-index: 1;
+    box-shadow: 6px 6px 6px rgba(209, 214, 255, 0.8);
+}
+.card-center {
+    border: solid #FFD5C4;
+    border-width: 3px;
+    background: linear-gradient(270deg, rgba(230, 232, 255, 0.9) 2.08%, rgba(230, 232, 255, 0.8) 38.02%, rgba(230, 246, 255, 0.8) 68.23%, rgba(230, 246, 255, 0.8) 95.31%);
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1.7em;
+    padding-bottom: 1.7em;
+    margin-top: -1.5em;
+}
+.res-label {
+    text-transform: bold;
+    font-size: 22px;
+}
+i {
+    font-size: 35px;
 }
