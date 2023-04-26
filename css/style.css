@@ -244,3 +244,39 @@ a, .page-nav {
 i {
     font-size: 35px;
 }
+.responsibilities-des {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+.top-level-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.bottom-level-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 4em;
+    margin-right: 4em;
+
+}
+.res-des-icon {
+    text-align: center;
+}
+.user-res-title {
+    border: solid #FFD5C4;
+    border-width: 3px;
+    text-align: center;
+    background: linear-gradient(270deg, #E6E8FF 2.08%, #E6E8FF 38.02%, #E6F6FF 68.23%, #E6F6FF 95.31%); 
+    padding-left: .7em;
+    padding-right: .7em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.user-research-title {
+    margin-top: 8em;
+}
