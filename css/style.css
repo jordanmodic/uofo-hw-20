@@ -308,3 +308,13 @@ i {
     text-align: center;
     gap: 1.5em;
 }
+.interview-objectives-cards {
+    display: flex;
+    flex-direction: row;
+}
+.interview-objectives-item {
+    text-align: center;
+}
+.interview-objectives-title {
+    width: 20em;
+}
