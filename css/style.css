@@ -392,6 +392,29 @@ i {
     border: 2px solid #FFD5C4;
     border-radius: 20px;
     text-align: center;
-    width: 50%;
-    margin-bottom: 0;
+    width: 12em;
+    margin-top: 2em;
+    padding: 1em;
+}
+.i-wish-item {
+    background: #FFF2C4;
+    border: 2px solid #FFD5C4;
+    border-radius: 20px;
+    margin-top: 2em;
+    padding: 1em;
+    width: 12em;
+}
+.what-if-item {
+    background: #FFD5C4;
+    border: 2px solid #DEF3FF;
+    border-radius: 20px;
+    margin-top: 2em;
+    padding: 1em;
+    width: 12em;
+}
+.item-layer {
+    padding: 2em;
+    display: inline-block;
+    width: 15em;
+    background: linear-gradient(270deg, rgba(230, 232, 255, 0.9) 2.08%, rgba(230, 232, 255, 0.8) 38.02%, rgba(230, 246, 255, 0.8) 68.23%, rgba(230, 246, 255, 0.8) 95.31%);
 }
