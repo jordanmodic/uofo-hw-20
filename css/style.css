@@ -386,5 +386,12 @@ i {
     background: linear-gradient(270deg, rgba(230, 232, 255, 0.9) 2.08%, rgba(230, 232, 255, 0.8) 38.02%, rgba(230, 246, 255, 0.8) 68.23%, rgba(230, 246, 255, 0.8) 95.31%);
     padding-top: 3em;
     padding-bottom: 1.5em;
-
+}
+.i-like-item {
+    background: #D1FFF7;
+    border: 2px solid #FFD5C4;
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 0;
 }
