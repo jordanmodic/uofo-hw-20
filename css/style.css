@@ -471,6 +471,7 @@ i {
     position: relative;
     z-index: 1;
     margin-left: 10%;
+    box-shadow: 6px 6px 6px rgba(209, 214, 255, 0.8);
 }
 .feature-item {
     width: 50em;
@@ -488,6 +489,7 @@ i {
     position: relative;
     z-index: 1;
     margin-left: 10%;
+    box-shadow: 6px 6px 6px rgba(209, 214, 255, 0.8);
 }
 .journey-item {
     margin-top: -1em;
@@ -505,6 +507,7 @@ i {
     position: relative;
     z-index: 1;
     margin-left: 10%;
+    box-shadow: 6px 6px 6px rgba(209, 214, 255, 0.8);
 }
 .user-flow-item {
     margin-top: -1em;
@@ -526,6 +529,7 @@ i {
     position: relative;
     z-index: 1;
     margin-left: 10%; 
+    box-shadow: 6px 6px 6px rgba(209, 214, 255, 0.8);
     
 }
 .wireframes-item {
@@ -544,6 +548,7 @@ i {
     position: relative;
     z-index: 1;
     margin-left: 10%;
+    box-shadow: 6px 6px 6px rgba(209, 214, 255, 0.8);
 }
 .lo-fi-item {
     width: 80%;
@@ -565,6 +570,7 @@ i {
     position: relative;
     z-index: 1;
     margin-left: 10%;
+    box-shadow: 6px 6px 6px rgba(209, 214, 255, 0.8);
 }
 .user-testing-item {
     width: 80%;
@@ -582,6 +588,7 @@ i {
     position: relative;
     z-index: 1; 
     margin-left: 10%;
+    box-shadow: 6px 6px 6px rgba(209, 214, 255, 0.8);
 }
 .ios-item {
     width: 80%;
@@ -611,6 +618,7 @@ final-thoughts-section {
     width: 20em;
     z-index: 1;
     margin-left: 10%;
+    box-shadow: 6px 6px 6px rgba(209, 214, 255, 0.8);
 
 }
 .ft-content {
@@ -623,4 +631,19 @@ final-thoughts-section {
     margin-top: -.8em;
     margin-bottom: 1em;
     margin-left: 10%;
+}
+.next-case-study {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    border: solid #FFD5C4;
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 1em;
+    margin-top: 5em;
+    background: linear-gradient(270deg, #E6E8FF 2.08%, #E6E8FF 38.02%, #E6F6FF 68.23%, #E6F6FF 95.31%);
+    margin-left: 70%;
+    box-shadow: 6px 6px 6px rgba(209, 214, 255, 0.8);
 }
